@@ -1,0 +1,24 @@
+body 
+{ 
+	color: #e6e6e5;
+	background-color: #293134;
+}
+
+#navbar
+{
+	position: relative;
+	left: 10%;
+	right: 10%;
+	width: 80%; 
+	box-shadow: none;
+	z-index:1000;
+}
+
+/* slideshow */
+
+.slides
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}

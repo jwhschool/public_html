@@ -1,0 +1,153 @@
+body 
+{ 
+	color: #e6e6e5;
+	background-color: #293134;
+}
+
+#header
+{
+	text-align: center; 
+}
+
+#current_datetime
+{
+	text-align: center;
+}
+
+#order_header
+{
+	position: relative;
+	left: 30%;
+	width: 40%;
+	text-align: center;
+}
+
+#order_form
+{
+	position: relative;
+	left: 30%;
+	width: 40%;
+}
+
+#accept
+{
+	text-align: center;
+}
+
+#dialog
+{
+	display: none;
+}
+
+/* box widths */
+.w3-select 
+{ 
+	position: relative;
+	left: 5.5%;
+	width: 90%; 
+	box-shadow: none;
+}
+
+.w3-input 
+{ 
+	position: relative;
+	left: 5.5%;
+	width: 90%;
+	box-shadow: none;
+}
+
+/* positioning */
+.order_label
+{
+	position: relative;
+	left: 5.5%;
+}
+
+#word_counter
+{
+	position: absolute;
+	right: 6.5%;
+}
+
+.error
+{
+	text-align: center; 
+	position: relative;
+	left: 5.5%;
+	width: 90%;
+	 /* if going back to span tags
+	position: relative;
+	left: 27.5%;
+	*/
+}
+
+/* position buttons in relation to container */
+#order_button
+{
+	position: absolute;
+	left: 25%;
+	bottom: 2.5%;
+}
+
+#reset_button
+{
+	position: absolute;
+	right: 25%;
+	bottom: 2.5%;
+}
+
+/* hide spinners */
+.spin 
+{
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+table.gridTable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridTable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridTable td { 
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+header {   /* to use this style, the id of your header div should be header */
+	font-family: verdana,arial,sans-serif;
+	position:absolute;
+	height:100px;
+	width: 100%;
+	top: 0px;
+}
+#main-content {   /* to use this style, the id of your main-content div should be main-content */
+	position:absolute;
+	top: 100px; /* header height */
+	bottom: 50px; /* footer height */
+	width: 100%;
+}
+footer {  /* to use this style, the id of your footer div should be footer */
+	font-family: verdana,arial,sans-serif;
+	font-size:10px;
+	position:absolute;
+	height:50px;
+	width: 100%;
+	bottom:0;
+}
